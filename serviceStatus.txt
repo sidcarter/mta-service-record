@@ -1,4 +1,4 @@
-<service><responsecode>0</responsecode><timestamp>9/20/2013 3:51:58 PM</timestamp><subway>
+<service><responsecode>0</responsecode><timestamp>9/20/2013 3:53:58 PM</timestamp><subway>
   <line>
     <name>123</name>
     <status>DELAYS</status>
@@ -36,15 +36,31 @@
   </line>
   <line>
     <name>ACE</name>
-    <status>GOOD SERVICE</status>
-    <text />
-    <Date></Date>
-    <Time></Time>
+    <status>SERVICE CHANGE</status>
+    <text>
+                    &lt;span class="TitleServiceChange" &gt;Service Change&lt;/span&gt;
+                    &lt;span class="DateStyle"&gt;
+                    &amp;nbsp;Posted:&amp;nbsp;09/20/2013&amp;nbsp; 3:52PM
+                    &lt;/span&gt;&lt;br/&gt;&lt;br/&gt;
+                  &lt;P&gt;Due to FDNY activity at &lt;STRONG&gt;Broadway- Lafayette St&lt;/STRONG&gt;, some northbound [F] train service via [A] from &lt;STRONG&gt;Jay St- MetroTech&lt;/STRONG&gt; to &lt;STRONG&gt;W 4 St- Washington Sq&lt;/STRONG&gt;. &lt;/P&gt;
+&lt;P&gt;Allow additional travel time.&lt;/P&gt;
+                &lt;br/&gt;&lt;br/&gt;
+              </text>
+    <Date>09/20/2013</Date>
+    <Time> 3:52PM</Time>
   </line>
   <line>
     <name>BDFM</name>
     <status>SERVICE CHANGE</status>
     <text>
+                    &lt;span class="TitleServiceChange" &gt;Service Change&lt;/span&gt;
+                    &lt;span class="DateStyle"&gt;
+                    &amp;nbsp;Posted:&amp;nbsp;09/20/2013&amp;nbsp; 3:52PM
+                    &lt;/span&gt;&lt;br/&gt;&lt;br/&gt;
+                  &lt;P&gt;Due to FDNY activity at &lt;STRONG&gt;Broadway- Lafayette St&lt;/STRONG&gt;, some northbound [F] train service via [A] from &lt;STRONG&gt;Jay St- MetroTech&lt;/STRONG&gt; to &lt;STRONG&gt;W 4 St- Washington Sq&lt;/STRONG&gt;. &lt;/P&gt;
+&lt;P&gt;Allow additional travel time.&lt;/P&gt;
+                &lt;br/&gt;&lt;br/&gt;
+              
                     &lt;span class="TitleServiceChange" &gt;Service Change&lt;/span&gt;
                     &lt;span class="DateStyle"&gt;
                     &amp;nbsp;Posted:&amp;nbsp;09/20/2013&amp;nbsp; 3:43PM
@@ -54,7 +70,7 @@
                 &lt;br/&gt;&lt;br/&gt;
               </text>
     <Date>09/20/2013</Date>
-    <Time> 3:43PM</Time>
+    <Time> 3:52PM</Time>
   </line>
   <line>
     <name>G</name>
