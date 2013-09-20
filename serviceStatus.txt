@@ -1,4 +1,4 @@
-<service><responsecode>0</responsecode><timestamp>9/20/2013 3:53:58 PM</timestamp><subway>
+<service><responsecode>0</responsecode><timestamp>9/20/2013 3:55:58 PM</timestamp><subway>
   <line>
     <name>123</name>
     <status>DELAYS</status>
@@ -941,7 +941,7 @@
 &lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;</text>
     <url></url>
     <Date>09/20/2013</Date>
-    <Time> 3:44PM</Time>
+    <Time> 3:54PM</Time>
   </line>
   <line>
     <name>Port Jervis</name>
@@ -958,6 +958,6 @@
                 &lt;span style=color:Red;font:caption&gt;Alert&lt;/span&gt;&lt;br/&gt;&lt;span style=font-size:x-small&gt;Sep 20, 2013 02:57:11 PM&lt;/span&gt;&lt;br/&gt;&lt;b&gt;Trains will not Operate between Port Jervis and Otisville - 8:30 a.m. to 5 p.m. weekdays through September 2013. &lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;</text>
     <url></url>
     <Date>09/20/2013</Date>
-    <Time> 3:44PM</Time>
+    <Time> 3:54PM</Time>
   </line>
 </MetroNorth></service>
