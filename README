@@ -1,11 +1,7 @@
-Is there some public log of the warning emails, texts, etc. sent out
-by the MTA in regard to incidents causing delays or other problems
-with the New York subway system? I couldn't find any such record using
-Google myself.
+Forked from -> https://github.com/nabilhassein/mta-service-record
 
-If not, I think it would be possible to create one by writing a pretty
-short computer program, and I might do it. If it were well-designed,
-perhaps it could prove useful to people, like lawyers or historians,
-who are interested in performing a detailed examination of whether
-some account of events is consistent with all available evidence of
-what was happening at the relevant times and locations.
+I plan to use it for figuring out any issues with my train schedule and hopefully help others who might need it.
+
+Free for anyone to use and modify, I think. I don't own the original, only the modifications.
+
+- Sid
