@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import xml.etree.ElementTree as ET
 tree = ET.parse('serviceStatus.txt')
 root = tree.getroot()
