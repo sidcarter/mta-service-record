@@ -1,20 +1,31 @@
 #!/usr/bin/env python
+import urllib2
+import os.path
+import time
 import xml.etree.ElementTree as ET
-tree = ET.parse('serviceStatus.txt')
+
+tmpfile = "/tmp/mta_service_status"
+now = time.time()
+filetime = datetime.fromtimestamp(path.getctime(tmpfile))
+
+html = urllib2.urlopen('http://www.mta.info/status/serviceStatus.txt')
+
+tree = ET.parse(html)
 root = tree.getroot()
+linebreak = "<br/>"
 ## root
 #. <Element 'service' at 0xffe7d1ec>
 
 for subway in root.findall('subway'):
-   print subway
+   #print subway
    for line in subway.findall('line'):
        for name in line.findall('name'):
-           print name.text
+           print ("%s%s"%(name.text,linebreak))
        for text in line.findall('text'):
            try:
-               print text.text
+               print ("%s%s"%(text.text,linebreak))
            except UnicodeEncodeError, e:
-               print 'fuck off python'
+               print 'Babelfish error!'
 
 
 # ET.dump(root)
@@ -40,9 +51,9 @@ for subway in root.findall('subway'):
 #. 7
 #. None
 #. ACE
-#. fuck off python
+#. The Doctor has this information
 #. BDFM
-#. fuck off python
+#. The Doctor has this information
 #. G
 #. None
 #. JZ
@@ -50,7 +61,7 @@ for subway in root.findall('subway'):
 #. L
 #. None
 #. NQR
-#. fuck off python
+#. The Doctor has this information
 #. S
 #. None
 #. SIR
